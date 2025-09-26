@@ -4,7 +4,7 @@ from GraceObservers import kalmanUpdate,kalmanPrediction
 import exploreSimSettings as ess
 
 TrajName="T"+str(ess.seed)+"_"+str(ess.vmn)
-file_path='..\V4\Data\simpMF\seed0\mfgpSimSimp.csv'
+file_path='Data\simpMF\seed0\mfgpSimSimp.csv'
 with open(file_path, 'r') as f:
         headers = f.readline().strip().split(',')
         print(headers)
