@@ -1,4 +1,4 @@
-# NIGP: Gaussian Process with Noisy Inputs (practical alternating implementation)
+# NIGP: Gaussian Process with Noisy Inputs (Gaussian Process Training with Input Noise:https://papers.nips.cc/paper_files/paper/2011/file/a8e864d04c95572d1aece099af852d0a-Paper.pdf)
 # Requires: numpy, scipy
 import numpy as np
 from scipy.linalg import cho_factor, cho_solve
