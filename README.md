@@ -1,9 +1,7 @@
 # Adaptive-Exploration-Under-Localization-Uncertainty-Using-Multi-fidelity-Gaussian-Processes
 exploreSimSettings.py: file for setting simulation parameters
 
-trajectoryEstimateGenerator.py: takes a .csv file with a trajectory (t,x,y,z) and estimates it using a kalman filter. Produces a .csv file with the original trajectory (t,x,y,z), position 
-
-estimates (xh,yh,zh), variance of position estimate ate each time step (sigx,sigy,sigz), and position errors (xe,ye,ze).
+trajectoryEstimateGenerator.py: takes a .csv file with a trajectory (t,x,y,z) and estimates it using a kalman filter. Produces a .csv file with the original trajectory (t,x,y,z), position estimates (xh,yh,zh), variance of position estimate ate each time step (sigx,sigy,sigz), and position errors (xe,ye,ze).
 
 measFieldData.py: takes a .csv file with the original trajectory (t,x,y,z) and produces a .csv file with the trajectoy and and associated field values (t,x,y,z,fieldVal) for a given field.
 
