@@ -11,7 +11,7 @@ import glob, os
 
 
 file_list=os.listdir(os.getcwd()+"/Data/TrajectoriesAndEstimates/")
-savePath="/Data/TrajectoriesAndEstimates/FieldData/"
+savePath="Data/TrajectoriesAndEstimates/FieldData/"
 for file_name in file_list:
     if file_name.endswith(".csv"):
         print(file_name)

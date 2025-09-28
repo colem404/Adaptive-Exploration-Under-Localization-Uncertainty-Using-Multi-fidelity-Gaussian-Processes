@@ -85,7 +85,7 @@ def vectorWRBFField(x,p,L,s,w):
 		y[i,0]=WRBFField(x[i,:],p,L,s,w);
 	return y
 
-seed=5
+seed=0
 auto=0
 np.random.seed(seed)
 fieldOffset=0
@@ -142,7 +142,7 @@ Rxhat=np.diag([.1,.1,.05])
 
 x02=np.array([[.5],[.5],[0],[0],[0],[0]])#xp,yp,zp,vx,vy,vz
 
-vmn=0.1#0#0.1#velocity measurment noise (m/s)^2
+vmn=0.2#0#0.1#velocity measurment noise (m/s)^2
 Pxhat2=.001*np.eye(6)
 Qxhat2=np.diag([0.005,0.005,0.005,0.05,0.05,0.05])
 Axhat2=lambda dt:np.eye(6)+np.array([[0,0,0,1,0,0],[0,0,0,0,1,0],[0,0,0,0,0,1],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]])*dt

@@ -1,4 +1,4 @@
-Groundtruth Origin: Data\simpMF\seed0\mfgpSimSimp.csv
+Groundtruth Origin: ..\V4\Data\simpMF\seed0\mfgpSimSimp.csv
 Random Seed: 5
 Meas Noise:
  [[0.05]
