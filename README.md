@@ -5,8 +5,6 @@ trajectoryEstimateGenerator.py: takes a .csv file with a trajectory (t,x,y,z) an
 
 measFieldData.py: takes a .csv file with the original trajectory (t,x,y,z) and produces a .csv file with the trajectoy and and associated field values (t,x,y,z,fieldVal) for a given field.
 
-prepGPData.py: takes a file with t,x,y,z,xh,yh,zh,sigx,sigy,sigz,xe,ye,ze and produces a file with a GP training data (t,x,y,z,xh,yh,zh,fieldVal,fidLev) where fidLevel is the assigned 
-
-fidelity level (based on sig_x and sig_y) for the multi-fidelity GP model.
+prepGPData.py: takes a file with t,x,y,z,xh,yh,zh,sigx,sigy,sigz,xe,ye,ze and produces a file with a GP training data (t,x,y,z,xh,yh,zh,fieldVal,fidLev) where fidLevel is the assigned fidelity level (based on sig_x and sig_y) for the multi-fidelity GP model.
 
 GPTrainers.py: takes a file with a GP dataset (t,x,y,z,xh,yh,zh,fieldVal,fidLev) and trains each of the GP models
